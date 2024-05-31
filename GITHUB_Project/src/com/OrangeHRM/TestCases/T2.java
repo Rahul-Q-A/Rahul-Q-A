@@ -14,5 +14,11 @@ public class T2
 	public void main() {
 		System.out.println("hi");
 	}
+	@Test
+	public void nain2()
+	{
+		System.out.println("hi2");
+
+	}
 
 }
