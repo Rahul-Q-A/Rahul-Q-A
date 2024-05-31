@@ -1,6 +1,7 @@
 package com.OrangeHRM.TestCases;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.OrangeHRM.basePage.BaseTest;
@@ -15,24 +16,7 @@ public class TestCase1 extends BaseTest
 		HP.ClkPim().click();
 		HP.ClkAddEmp().click();
 
-		HP.ClkSave().click();
-
-	}
-	@Test
-	public void test()
-	{
-		System.out.println("HelloIndia");
-	}
-	@Test
-	public void test3()
-	{
-		System.out.println("HelloIndia");
-	}
-
-
-	
-	
-
+		}
 	
 	
 }
