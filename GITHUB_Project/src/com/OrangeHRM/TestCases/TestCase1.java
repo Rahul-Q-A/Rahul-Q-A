@@ -1,6 +1,7 @@
 package com.OrangeHRM.TestCases;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.OrangeHRM.basePage.BaseTest;
@@ -21,6 +22,7 @@ public class TestCase1 extends BaseTest
 	public void Name()
 	{
 		System.out.println("Gagana");
+		Reporter.log("swthi@420");
 	}
 
 	
