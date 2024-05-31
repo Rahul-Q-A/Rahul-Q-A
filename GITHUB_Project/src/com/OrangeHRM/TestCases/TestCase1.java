@@ -23,6 +23,12 @@ public class TestCase1 extends BaseTest
 	{
 		System.out.println("HelloIndia");
 	}
+	@Test
+	public void test3()
+	{
+		System.out.println("HelloIndia");
+	}
+
 
 	
 	
