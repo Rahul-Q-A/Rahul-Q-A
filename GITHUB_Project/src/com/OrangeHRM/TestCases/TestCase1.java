@@ -18,6 +18,14 @@ public class TestCase1 extends BaseTest
 		HP.ClkSave().click();
 
 	}
+	@Test
+	public void test()
+	{
+		System.out.println("Hello");
+	}
+
+	
+	
 
 	
 	
