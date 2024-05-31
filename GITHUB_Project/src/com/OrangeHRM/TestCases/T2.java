@@ -10,5 +10,9 @@ public class T2
 	{
 		System.out.println("Hellooo");
 	}
+	@Test
+	public void main() {
+		System.out.println("hi");
+	}
 
 }
