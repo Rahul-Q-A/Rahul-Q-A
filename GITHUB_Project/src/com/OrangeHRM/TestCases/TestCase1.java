@@ -1,6 +1,7 @@
 package com.OrangeHRM.TestCases;
 
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import com.OrangeHRM.basePage.BaseTest;
@@ -17,6 +18,11 @@ public class TestCase1 extends BaseTest
 
 		HP.ClkSave().click();
 
+	}
+	@Test
+	public void T2()
+	{
+		Reporter.log("TestEngineer");
 	}
 
 	
