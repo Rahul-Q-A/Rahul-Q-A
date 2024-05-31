@@ -16,7 +16,11 @@ public class TestCase1 extends BaseTest
 		HP.ClkAddEmp().click();
 
 		HP.ClkSave().click();
-
+	}
+	@Test
+	public void Name()
+	{
+		System.out.println("Gagana");
 	}
 
 	
