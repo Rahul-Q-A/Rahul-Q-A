@@ -8,7 +8,7 @@ public class T2
 	public void T2()
 	
 	{
-		System.out.println("Hellooo");
+		System.out.println("Hello world");
 	}
 
 }
