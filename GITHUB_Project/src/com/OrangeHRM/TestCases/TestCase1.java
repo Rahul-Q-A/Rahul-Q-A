@@ -22,7 +22,8 @@ public class TestCase1 extends BaseTest
 	@Test
 	public void T2()
 	{
-		Reporter.log("swati");
+		Reporter.log("swati1234");
+		Reporter.log("gagana12345");
 	}
 
 	
