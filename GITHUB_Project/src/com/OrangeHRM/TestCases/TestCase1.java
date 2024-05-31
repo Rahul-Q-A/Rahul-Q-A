@@ -16,15 +16,7 @@ public class TestCase1 extends BaseTest
 		HP.ClkPim().click();
 		HP.ClkAddEmp().click();
 
-		HP.ClkSave().click();
-
-	}
-	@Test
-	public void T2()
-	{
-		Reporter.log("TestEngineer");
-	}
-
+		}
 	
 	
 }
