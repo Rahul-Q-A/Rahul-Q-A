@@ -8,6 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
@@ -48,6 +49,7 @@ public class BaseTest implements Application_Constants
 		LP.EnterUsn().sendKeys(pro.getProperty("usn"));
 		LP.EnterPsw().sendKeys(pro.getProperty("psw"));
 		LP.ClkLgn().click();
+		Reporter.log("usn");
 		
 	}
 	@AfterMethod

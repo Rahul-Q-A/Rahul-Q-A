@@ -23,7 +23,7 @@ public class TestCase1 extends BaseTest
 	public void T2()
 	{
 		Reporter.log("swati1234");
-		Reporter.log("gagana12345");
+		Reporter.log("gagana123");
 	}
 
 	
