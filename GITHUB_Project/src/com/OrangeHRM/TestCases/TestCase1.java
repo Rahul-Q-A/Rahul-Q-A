@@ -21,7 +21,7 @@ public class TestCase1 extends BaseTest
 	@Test
 	public void test()
 	{
-		System.out.println("Hello12345678945");
+		System.out.println("HelloIndia");
 	}
 
 	
