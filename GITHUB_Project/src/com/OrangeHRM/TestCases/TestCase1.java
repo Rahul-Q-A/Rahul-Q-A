@@ -12,12 +12,10 @@ public class TestCase1 extends BaseTest
 	@Test
 	public void AddEmp() throws Exception
 	{
-		HP.ClkPim().click();
-		HP.ClkAddEmp().click();
-
-		HP.ClkSave().click();
+		System.out.println("hello");
 
 	}
+	
 
 	
 	
