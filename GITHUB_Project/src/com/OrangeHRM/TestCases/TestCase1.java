@@ -12,7 +12,7 @@ public class TestCase1 extends BaseTest
 	@Test
 	public void AddEmp() throws Exception
 	{
-		System.out.println("hello");
+		System.out.println("RA");
 
 	}
 	
