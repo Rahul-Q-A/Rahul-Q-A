@@ -49,7 +49,7 @@ public class BaseTest implements Application_Constants
 		LP.EnterUsn().sendKeys(pro.getProperty("usn"));
 		LP.EnterPsw().sendKeys(pro.getProperty("psw"));
 		LP.ClkLgn().click();
-		Reporter.log("usn");
+		Reporter.log("usn123gvjhbn");
 		
 	}
 	@AfterMethod
