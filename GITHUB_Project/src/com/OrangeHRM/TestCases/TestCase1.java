@@ -25,7 +25,10 @@ public class TestCase1 extends BaseTest
 	}
 
 	
-	
+	@Test
+	public void addname() {
+		System.out.println("jagadish");
+	}
 
 	
 	
