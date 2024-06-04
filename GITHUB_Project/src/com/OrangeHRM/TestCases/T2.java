@@ -20,5 +20,12 @@ public class T2
 		System.out.println("hi2");
 
 	}
+	@Test
+	public void nain7()
+	{
+		System.out.println("hir");
+
+	}
+	
 
 }
